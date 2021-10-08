@@ -1,0 +1,111 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+
+
+.DemoPickerWrapper {
+  padding: 0 12px;
+  font-family: "Source Code Pro", monospace;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+  background: white;
+  margin: 24px 0 48px;
+  width: 100%;
+}
+
+.DemoPicker {
+  font-size: 18px;
+  border-radius: 3px;
+  background-color: white;
+  height: 48px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  border: 0;
+  width: 100%;
+  color: #6772e5;
+  outline: none;
+  background: transparent;
+
+  -webkit-appearance: none;
+}
+
+.DemoWrapper {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.Demo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 40%;
+}
+
+
+.StripeElement {
+  display: block;
+  margin: 10px 0 20px 0;
+  background-color: #fafafa;
+  padding: 10px 14px;
+  font-size: 1em;
+  font-family: "Source Code Pro", monospace;
+  border-bottom: 2px solid #e2e8f0;
+  outline: 0;
+}
+
+.StripeElement--focus {
+    border-bottom: 2px solid #01896a;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
+
+.StripeElement.IdealBankElement,
+.StripeElement.FpxBankElement,
+.StripeElement.PaymentRequestButton {
+  padding: 0;
+}
+
+.StripeElement.PaymentRequestButton {
+  height: 40px;
+}
