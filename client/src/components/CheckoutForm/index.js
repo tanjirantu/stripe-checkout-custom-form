@@ -126,6 +126,7 @@ const SplitForm = () => {
 
             {/* {!checkoutError && <CheckoutError>{checkoutError}</CheckoutError>} */}
             <button
+                className="checkout-button"
                 type="submit"
                 disabled={isProcessing || !stripe}
             >

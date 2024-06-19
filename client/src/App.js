@@ -8,7 +8,9 @@ const stripePromise = loadStripe("pk_test_51J6nFYHgGxrAF2GIW7hW5slBmOCkLEKltHn18
 function App() {
   return (
     <Elements stripe={stripePromise}>
-      <CheckoutForm />
+      <div className='container'>
+        <CheckoutForm />
+      </div>
     </Elements>
   );
 }
